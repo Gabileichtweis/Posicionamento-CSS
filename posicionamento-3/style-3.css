@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+p {
+    color: white;
+    font-size: 2rem;
+}
+
+div {
+    background-color: black;
+    margin: 20px;
+}
+
+#div-1 {
+    border-radius: 20px;
+    text-align: end;
+    font-size: 4rem;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+#div-2 {
+    border: 3px red solid;
+    text-align: justify;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
